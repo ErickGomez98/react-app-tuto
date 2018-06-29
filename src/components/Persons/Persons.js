@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import Person from './Person/Person';
 
-class Persons extends Component {
+class Persons extends PureComponent {
   constructor(props) {
     super(props);
     console.log('[Persons.js] Inside constructutor ', props);
@@ -21,10 +21,10 @@ class Persons extends Component {
 
   // Sirve para poder decidir si hace render o no del componente, si regresa true si lo renderiza, si regresa
   // falso, lo detiene y no renderiza el component.
-  shouldComponentUpdate(nextProps, nextState) {
+  /*shouldComponentUpdate(nextProps, nextState) {
     console.log('[UPDATE Persons.js] inside shouldComponentUpdate', nextProps, nextState);
     return nextProps.persons !== this.props.persons;
-  }
+  }*/
 
   componentWillUpdate(nextProps, nextState) {
     console.log('[UPDATE Persons.js] inside componentWillUpdate', nextProps, nextState);
