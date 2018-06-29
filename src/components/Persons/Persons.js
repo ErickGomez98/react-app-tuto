@@ -15,6 +15,25 @@ class Persons extends Component {
     console.log('[Persons.js], Inside componentDidMount');
   }
 
+  componentWillReceiveProps(nextProps) {
+    console.log('[UPDATE Persons.js] Inside componentWillReceiveProps', nextProps);
+  }
+
+  // Sirve para poder decidir si hace render o no del componente, si regresa true si lo renderiza, si regresa
+  // falso, lo detiene y no renderiza el component.
+  shouldComponentUpdate(nextProps, nextState) {
+    console.log('[UPDATE Persons.js] inside shouldComponentUpdate', nextProps, nextState);
+    return nextProps.persons !== this.props.persons;
+  }
+
+  componentWillUpdate(nextProps, nextState) {
+    console.log('[UPDATE Persons.js] inside componentWillUpdate', nextProps, nextState);
+  }
+
+  componentDidUpdate() {
+    console.log('[UPDATE Persons.js] inside componentDidUpdate');
+  }
+
   render() {
     console.log('[Persons.js] Inside render');
     return (
@@ -30,4 +49,5 @@ class Persons extends Component {
     );
   }
 }
+
 export default Persons;

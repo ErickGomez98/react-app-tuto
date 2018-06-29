@@ -77,7 +77,7 @@ class App extends Component {
     if (this.state.showPersons) {
       persons = <Persons
         persons={this.state.persons}
-        click={this.deletePersonHandler}
+        clicked={this.deletePersonHandler}
         changed={this.nameChangedHandler}/>;
     }
 
