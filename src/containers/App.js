@@ -4,18 +4,27 @@ import Persons from '../components/Persons/Persons';
 import Cockpit from "../components/Cockpit/Cockpit";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    console.log('[App.js] Inside constructutor ', props);
-    this.state = {
-      persons: [
-        {id: 1, name: 'Max', age: 28},
-        {id: 2, name: 'Erick', age: 19}
-      ],
-      ohterState: 'Some other value',
-      showPersons: false
-    };
-  }
+  togglePersonsHandler = () => {
+    const doesShow = this.state.showPersons;
+
+    // Si se necesita por alguna razón modificar el state y aparte si en el caso de que en algun otro
+    // lado se este modificando tambien el state, hacerlo de esta manera podría tener problemas, porque si en el
+    // otro lugar puede ser que se termine de modificar primero y aquí ya no funcionaría correctamente, por eso
+    // hay otra manera de hacer correctamente el this.setState.
+    // https://www.udemy.com/react-the-complete-guide-incl-redux/learn/v4/t/lecture/8111624
+    /*
+    this.setState({
+      showPersons: !doesShow,
+      toggleClicked: this.state.toggleClicked + 1
+    });
+    */
+    this.setState((prevState) => {
+      return {
+        showPersons: !doesShow,
+        toggleClicked: prevState.state.toggleClicked + 1
+      };
+    });
+  };
 
   componentWillMount() {
     console.log('[App.js] Inside componentWillMount');
@@ -47,13 +56,19 @@ class App extends Component {
     });
   };
 
-  togglePersonsHandler = () => {
-    const doesShow = this.state.showPersons;
-
-    this.setState({
-      showPersons: !doesShow
-    });
-  };
+  constructor(props) {
+    super(props);
+    console.log('[App.js] Inside constructutor ', props);
+    this.state = {
+      persons: [
+        {id: 1, name: 'Max', age: 28},
+        {id: 2, name: 'Erick', age: 19}
+      ],
+      ohterState: 'Some other value',
+      showPersons: false,
+      toggleClicked: 0
+    };
+  }
 
   deletePersonHandler = (personIndex) => {
     /* Hacerlo de esta manera esta mal, porque se esta modificando el valor original de this.state.persons y
