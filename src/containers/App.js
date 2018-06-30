@@ -3,6 +3,8 @@ import classes from './App.css';
 import Persons from '../components/Persons/Persons';
 import Cockpit from "../components/Cockpit/Cockpit";
 
+export const AuthContext = React.createContext(false);
+
 class App extends Component {
   togglePersonsHandler = () => {
     const doesShow = this.state.showPersons;
@@ -56,19 +58,9 @@ class App extends Component {
     });
   };
 
-  constructor(props) {
-    super(props);
-    console.log('[App.js] Inside constructutor ', props);
-    this.state = {
-      persons: [
-        {id: 1, name: 'Max', age: 28},
-        {id: 2, name: 'Erick', age: 19}
-      ],
-      ohterState: 'Some other value',
-      showPersons: false,
-      toggleClicked: 0
-    };
-  }
+  loginHandler = () => {
+    this.setState({authenticated: true});
+  };
 
   deletePersonHandler = (personIndex) => {
     /* Hacerlo de esta manera esta mal, porque se esta modificando el valor original de this.state.persons y
@@ -84,6 +76,21 @@ class App extends Component {
       persons: persons
     });
   };
+
+  constructor(props) {
+    super(props);
+    console.log('[App.js] Inside constructutor ', props);
+    this.state = {
+      persons: [
+        {id: 1, name: 'Max', age: 28},
+        {id: 2, name: 'Erick', age: 19}
+      ],
+      ohterState: 'Some other value',
+      showPersons: false,
+      toggleClicked: 0,
+      authenticated: false
+    };
+  }
 
   render() {
     console.log('[App.js] Inside Render');
@@ -102,8 +109,11 @@ class App extends Component {
           appTitle={this.props.title}
           showPersons={this.state.showPersons}
           persons={this.state.persons}
+          login={this.loginHandler}
           clicked={this.togglePersonsHandler}/>
-        {persons}
+        <AuthContext.Provider value={this.state.authenticated}>
+          {persons}
+        </AuthContext.Provider>
       </div>
     );
   }

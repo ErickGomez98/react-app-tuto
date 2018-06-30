@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9931807d-05f0-4ce9-a4e6-e919c6a9a262" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Persons/Person/Person.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Persons/Persons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-598">
-              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="115">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -44,8 +44,8 @@
       <file leaf-file-name="Persons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="345">
+              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -53,8 +53,8 @@
       <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="391">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,8 @@
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            <state relative-caret-position="161">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -89,6 +89,7 @@
       <find>shou</find>
       <find>this2</find>
       <find>Cockpit</find>
+      <find>shoul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" />
         <option value="$PROJECT_DIR$/src/hoc/Auxx.js" />
         <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" />
-        <option value="$PROJECT_DIR$/src/containers/App.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Persons.js" />
+        <option value="$PROJECT_DIR$/src/containers/App.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Person/Person.js" />
       </list>
     </option>
@@ -244,7 +245,7 @@
       <workItem from="1530297800476" duration="3000" />
       <workItem from="1530297814710" duration="4136000" />
       <workItem from="1530302348963" duration="9061000" />
-      <workItem from="1530374296404" duration="2214000" />
+      <workItem from="1530374296404" duration="4035000" />
     </task>
     <task id="LOCAL-00001" summary="Before eject">
       <created>1530298377414</created>
@@ -351,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530374614094</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Forma de crear referencias entre diferentes components">
+      <created>1530376532331</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1530376532331</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15414000" />
+    <option name="totallyTimeSpent" value="17235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -406,7 +414,8 @@
     <MESSAGE value="Se tiene que usar &lt;Fragment&gt; en lugar de &lt;Aux&gt; como viene en el curso (lección 92), al final de cuentas lo que se necesita es que eliminemos el &lt;div&gt; que agrupa a todo el return del render, más info en: https://reactjs.org/docs/fragments.html" />
     <MESSAGE value="Removed aux files/folders" />
     <MESSAGE value="Mejor forma de llamar a this.setState" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mejor forma de llamar a this.setState" />
+    <MESSAGE value="Forma de crear referencias entre diferentes components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forma de crear referencias entre diferentes components" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -531,34 +540,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hoc/Auxx.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="115">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="161">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

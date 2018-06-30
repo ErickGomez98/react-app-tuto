@@ -25,7 +25,7 @@ class Persons extends Component {
   // falso, lo detiene y no renderiza el component.
   shouldComponentUpdate(nextProps, nextState) {
     console.log('[UPDATE Persons.js] inside shouldComponentUpdate', nextProps, nextState);
-    return nextProps.persons !== this.props.persons;
+    return true;
   }
 
   componentWillUpdate(nextProps, nextState) {
