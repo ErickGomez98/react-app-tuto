@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9931807d-05f0-4ce9-a4e6-e919c6a9a262" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/hoc/Auxx.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Persons/Persons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Persons/Persons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
     </list>
@@ -21,8 +24,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="-1242">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -30,16 +33,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Persons.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cockpit.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Persons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="322">
+              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cockpit.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auxx.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hoc/Auxx.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Person.js" pinned="false" current-in-tab="false">
@@ -56,8 +85,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,6 +97,7 @@
       <find>props</find>
       <find>shou</find>
       <find>this2</find>
+      <find>Cockpit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,12 +125,13 @@
         <option value="$PROJECT_DIR$/src/Persons/Persons.js" />
         <option value="$PROJECT_DIR$/src/Cockpit/Cockpit.css" />
         <option value="$PROJECT_DIR$/src/Cockpit/Cockpit.js" />
-        <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Person/Person.js" />
-        <option value="$PROJECT_DIR$/src/containers/App.js" />
         <option value="$PROJECT_DIR$/src/components/Persons/Persons.js" />
+        <option value="$PROJECT_DIR$/src/containers/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.css" />
+        <option value="$PROJECT_DIR$/src/hoc/Auxx.js" />
+        <option value="$PROJECT_DIR$/src/components/Cockpit/Cockpit.js" />
       </list>
     </option>
   </component>
@@ -172,22 +203,7 @@
               <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Persons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Persons" type="462c0819:PsiDirectoryNode" />
-              <item name="Person" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +258,7 @@
       <updated>1530297799133</updated>
       <workItem from="1530297800476" duration="3000" />
       <workItem from="1530297814710" duration="4136000" />
-      <workItem from="1530302348963" duration="7050000" />
+      <workItem from="1530302348963" duration="8944000" />
     </task>
     <task id="LOCAL-00001" summary="Before eject">
       <created>1530298377414</created>
@@ -321,11 +337,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530314152014</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="PureComponents, tienen un mejor performance ya que React se encarga de hacer render solamente cuando vea cambios en props o state, en cambio Components siempre hace el render, a no ser que se lo especifiquemos en shouldComponentUpdate">
+      <created>1530314983359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1530314983359</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11189000" />
+    <option name="totallyTimeSpent" value="13083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -372,7 +395,8 @@
     <MESSAGE value="Component creation lifecycle" />
     <MESSAGE value="Component lifecycle update" />
     <MESSAGE value="Component lifecycle update triggered by state changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Component lifecycle update triggered by state changes" />
+    <MESSAGE value="PureComponents, tienen un mejor performance ya que React se encarga de hacer render solamente cuando vea cambios en props o state, en cambio Components siempre hace el render, a no ser que se lo especifiquemos en shouldComponentUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="PureComponents, tienen un mejor performance ya que React se encarga de hacer render solamente cuando vea cambios en props o state, en cambio Components siempre hace el render, a no ser que se lo especifiquemos en shouldComponentUpdate" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -460,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -487,16 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Person/Person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -506,18 +513,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="-1242">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hoc/Auxx.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Persons/Persons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="322">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cockpit/Cockpit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
